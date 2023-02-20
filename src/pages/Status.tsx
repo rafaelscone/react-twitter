@@ -25,9 +25,10 @@ import './Status.css';
 export function Status() {
   const [newAnswer, setNewAnswer] = useState('')
   const [answers, setAnswers] = useState([
-    'Concordo...',
-    'Olha, faz sentido!',
-    'Parabéns pelo progresso.'
+    'A nice tweeet',
+    'Making the test for tweet',
+    'Deu certo tweetar!',
+    'here go more one'
   ])
 
   function createNewAnswer(event: FormEvent) {
@@ -54,7 +55,7 @@ export function Status() {
 
       <form onSubmit={createNewAnswer} className="answer-tweet-form">
         <label htmlFor="tweet">
-          <img src="https://github.com/diego3g.png" alt="Diego Fernandes" />
+          <img src="https://github.com/rafaelscone.png" alt="Rafael Schneider" />
           <textarea 
             id="tweet" 
             placeholder="Tweet your answer" 

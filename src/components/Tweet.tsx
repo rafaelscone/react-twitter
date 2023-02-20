@@ -9,7 +9,7 @@ interface TweetProps {
 export function Tweet(props: TweetProps) {
   return (
     <Link to="/status" className="tweet">
-      <img src="https://github.com/rafaelscone.png" alt="Diego Fernandes" />
+      <img src="https://github.com/rafaelscone.png" alt="Rafael Schenider" />
 
       <div className="tweet-content">
         <div className="tweet-content-header">
@@ -22,17 +22,17 @@ export function Tweet(props: TweetProps) {
         <div className="tweet-content-footer">
           <button type="button">
             <ChatCircle />
-            20
+            15
           </button>
 
           <button type="button">
             <ArrowsClockwise />
-            20
+            30
           </button>
 
           <button type="button">
             <Heart />
-            20
+            15
           </button>
         </div>
       </div>
