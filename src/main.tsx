@@ -10,6 +10,8 @@ import twitterLogo from './assets/logo.svg'
 
 import { Bell, BookmarkSimple, DotsThreeCircle, Envelope, FileText, Hash, House, User } from 'phosphor-react'
 
+import { Test} from './Test'
+
 const editUser = false;
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
@@ -67,6 +69,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
             <button type='submit'>Tweet</button>
           </form>
           <div className='separator'></div>
+          <Test></Test>
         </main>
       </div>
 
